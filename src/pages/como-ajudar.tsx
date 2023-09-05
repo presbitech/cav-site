@@ -29,7 +29,7 @@ const Index = (props: IIndexProps) => (
         <div>
           <h3>Contribuições financeiras</h3>
           <p>
-            Não temos forma de contribuiçao financeira no momento.
+            Não temos forma de contribuição financeira no momento.
           </p>
           <h3>Contribuições com seu trabalho</h3>
           <p>
