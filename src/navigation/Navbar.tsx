@@ -13,7 +13,7 @@ const Navbar = (props: INavbarProps) => (
     <div className="navbar max-w-screen-xl flex flex-wrap justify-between items-center py-4 px-3 mx-auto">
       <div className="font-extrabold text-3xl">
         <Link href="/">
-          <a>{Config.site_name}</a>
+          {Config.site_name}
         </Link>
       </div>
 

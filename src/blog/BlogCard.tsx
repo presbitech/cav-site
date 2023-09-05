@@ -15,7 +15,7 @@ type IBlogCardProps = {
 const BlogCard = (props: IBlogCardProps) => (
   <div className="overflow-hidden">
     <Link href="/posts/[slug]" as={`/posts/${props.slug}`}>
-      <a className=" h-full">
+      <div className=" h-full">
         {/* <img className="w-full" src={props.image} alt={`Preview ${props.title}`} /> */}
 
         <div className="px-3 py-2 flex-grow">
@@ -34,7 +34,7 @@ const BlogCard = (props: IBlogCardProps) => (
             </div>
           ))}
         </div> */}
-      </a>
+      </div>
     </Link>
 
     <style jsx>

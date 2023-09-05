@@ -14,7 +14,8 @@
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "deploy": "aws s3 sync ./dist s3://teonomia.com --acl=public-read --profile=alv && aws cloudfront create-invalidation --profile=alv --distribution-id E3PJNYFZLECHPC --paths '/*'",
+    "deployy": "aws s3 sync ./dist s3://teonomia.com --profile=teonomia",
+    "deploy": "aws s3 sync ./dist s3://teonomia.com --acl=public-read --profile=teonomia && aws cloudfront create-invalidation --profile=teonomia --distribution-id E3PJNYFZLECHPC --paths '/*'",
     "build&upload": "run-s clean build export && aws s3 sync ./dist s3://teonomia.com --acl=public-read"
   },
   "dependencies": {

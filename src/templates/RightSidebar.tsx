@@ -29,9 +29,9 @@ const RightSidebar = (props: IMainProps) => (
                 {props.recentPosts.map((elt) => (
                   <li key={elt.slug} className="my-0">
                     <Link href="/posts/[slug]" as={`/posts/${elt.slug}`}>
-                      <a className="text-blue-600 hover:border-b-2 hover:border-blue-600">
+                      <div className="text-blue-600 hover:border-b-2 hover:border-blue-600">
                         {elt.title}
-                      </a>
+                      </div>
                     </Link>
                   </li>
                 ))}
@@ -44,26 +44,32 @@ const RightSidebar = (props: IMainProps) => (
               {props.categoryCollection.map((elt) => (
                 <li key={elt[0]} className="py-1 border-b border-gray-400 last:border-none">
                   <Link href="/category/[name]" as={`/category/${convertToSlug(elt[0])}`}>
-                    <a className="flex justify-between hover:text-gray-600">
+                    <div className="flex justify-between hover:text-gray-600">
                       <div>{elt[0]}</div>
 
                       <div>{elt[1].length}</div>
-                    </a>
+                    </div>
                   </Link>
                 </li>
               ))}
             </ul>
           </SidebarBlock>
 
-          <SidebarBlock title="Info relevante">
+          <SidebarBlock title="Sobre nós">
             <>
               <div>
-                <p>Digdin, digdin, digdin</p>
-                <p>Digdin, digdin, digdin</p>
-                <p>Digdin, digdin</p>
-                <p>Digdin, digdin, digdin</p>
-                <p>Digdin, digdin, digdin</p>
-                <p>Digdin, digdin</p>
+                {/* link para a pagina quem somos */}
+                <Link href="/sobre-nos">
+                  <div className="text-blue-600 hover:border-b-2 hover:border-blue-600">
+                    Quem somos
+                  </div>
+                </Link>
+                {/* como ajudar */}
+                <Link href="/como-ajudar">
+                  <div className="text-blue-600 hover:border-b-2 hover:border-blue-600">
+                    Como ajudar
+                  </div>
+                </Link>
               </div>
               {/* <SidebarIconList /> */}
             </>
