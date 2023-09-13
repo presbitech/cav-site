@@ -59,13 +59,13 @@ const RightSidebar = (props: IMainProps) => (
             <>
               <div>
                 {/* link para a pagina quem somos */}
-                <Link href="/sobre-nos">
+                <Link href="/page/sobre-nos">
                   <div className="text-blue-600 hover:border-b-2 hover:border-blue-600">
                     Quem somos
                   </div>
                 </Link>
                 {/* como ajudar */}
-                <Link href="/como-ajudar">
+                <Link href="/page/como-ajudar">
                   <div className="text-blue-600 hover:border-b-2 hover:border-blue-600">
                     Como ajudar
                   </div>

@@ -1,7 +1,7 @@
 export const Config = {
   site_name: 'Cativos A Verdade',
-  title: 'Cativos A Verdade',
-  description: 'A beleza ja salvou o mundo',
+  title: 'Traduçao de Artigos ',
+  description: 'Levando cativo todo o entendimento à obediência de Cristo. 2 Coríntios 10:5b',
   url: 'https://CativosAVerdade.com',
   locale: 'pt',
   author: 'Alvaro, Marciel ...',
