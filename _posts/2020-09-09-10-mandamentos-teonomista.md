@@ -1,6 +1,8 @@
 ---
-title: Manifesto Cristão teonomista em 10 fundamentos
-description: Um manifesto cristão escrito por um Teonomista.
+title: Manifesto Cristão em 10 pontos
+original_title: A Christian Manifesto
+source_text: Faith and Action
+description: Um manifesto cristão basico.
 author: R. J. Rushdoony
 date: '2020-09-09'
 modified_date: '2020-09-09'

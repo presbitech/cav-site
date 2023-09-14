@@ -1,5 +1,7 @@
 ---
-title: Os 10 Fundamentos do Estado Totalitário
+title: Os 10 Fundamentos do Estatismo Moderno
+original_title: The Ten Fundamentals Of Modern Estatism
+source_text: Faith and Action
 description: Lista dos 10 mais principais colunas do totalitarismo.  
 author: R. J. Rushdoony
 date: '2020-09-09'
