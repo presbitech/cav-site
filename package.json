@@ -14,9 +14,9 @@
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "deployy": "aws s3 sync ./dist s3://teonomia.com --profile=teonomia",
-    "deploy": "aws s3 sync ./dist s3://teonomia.com --acl=public-read --profile=teonomia && aws cloudfront create-invalidation --profile=teonomia --distribution-id E3PJNYFZLECHPC --paths '/*'",
-    "build&upload": "run-s clean build export && aws s3 sync ./dist s3://teonomia.com --acl=public-read"
+    "deployy": "aws s3 sync ./dist s3://cativosaverdade.com --profile=cativosaverdade",
+    "deploy": "aws s3 sync ./dist s3://cativosaverdade.com --acl=public-read --profile=cativosaverdade && aws cloudfront create-invalidation --profile=cativosaverdade --distribution-id E3PJNYFZLECHPC --paths '/*'",
+    "build&upload": "run-s clean build export && aws s3 sync ./dist s3://cativosaverdade.com --acl=public-read"
   },
   "dependencies": {
     "@babel/plugin-transform-typescript": "^7.22.9",
